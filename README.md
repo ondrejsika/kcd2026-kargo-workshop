@@ -2,6 +2,12 @@
 
 # kcd2026-kargo-workshop
 
+## Goal of the Workshop
+
+- Deploy example app in multiple environments: dev, staging, prod
+- Implement promotion of new changes (images, config) accross the stages
+- Do it using GitOps
+
 ## What is ArgoCD?
 
 [ArgoCD](https://argo-cd.readthedocs.io) is an open-source declarative, GitOps continuous delivery tool for Kubernetes. It continuously syncs the desired state defined in a Git repository with the actual state of a Kubernetes cluster, automatically detecting and correcting drift.
