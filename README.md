@@ -49,3 +49,37 @@ A deployment target (e.g. dev, staging, prod) that tracks which Freight is curre
 ### Promotion
 
 A record of moving a specific Freight into a Stage; Kargo creates one automatically or on manual approval.
+
+## Create Repo
+
+Create repo `github.com/ondrejsika/kcd2026-kargo-example`
+
+## Deploy cluster essentials using ArgoCD
+
+Copy `clusters/kcd/{_app_of_apps,_cluster}` them from `example/`
+
+Commit and push
+
+## Install ArgoCD
+
+```
+helm upgrade --install \
+  argocd argo-cd \
+  --repo https://argoproj.github.io/argo-helm \
+  --create-namespace \
+  --namespace argocd \
+  --wait
+```
+
+## Apply app-of-apps
+
+```
+kubectl apply -f clusters/kcd/_app_of_apps
+```
+
+## Checkout ArgoCD and Kargo
+
+- https://argocd.kcd.sikademo.com
+- https://kargo.kcd.sikademo.com
+
+Username `admin`, password `admin` for both.
