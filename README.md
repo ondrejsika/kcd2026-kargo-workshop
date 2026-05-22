@@ -142,3 +142,35 @@ vim clusters/kcd/hello/values/dev/common.values.yaml
 Commit and push.
 
 See Kargo and apps
+
+## Another example - counter (be + fe)
+
+Based on:
+
+- https://github.com/ondrejsika/counter (backend)
+- https://github.com/ondrejsika/counter-frontend-go
+
+Build images
+
+```
+make -C ./src/backend build-and-push
+make -C ./src/frontend build-and-push
+```
+
+Copy `src/{backend,fronted}` and `clusters/kcd/counter` from `example/`
+
+Commit and push
+
+See:
+
+- https://kargo.kcd.sikademo.com
+- https://counter-dev.kcd.sikademo.com
+- https://counter-staging.kcd.sikademo.com
+- https://counter-prod.kcd.sikademo.com
+
+And try build new images or update values
+
+```
+make -C ./src/backend build-and-push BUILD_ID=2
+make -C ./src/frontend build-and-push BUILD_ID=2
+```
