@@ -64,6 +64,16 @@ Username `admin`, password `admin` for both.
 
 `https://argocd.kcd.sikademo.com/api/webhook`
 
+## Build and push hello image
+
+Copy `clusters/src/hello` from `example/`
+
+Commit
+
+```
+make -C ./src/hello build-and-push
+```
+
 ## Create ArgoCD Apps for hello app
 
 Copy `clusters/kcd/hello/{argocd,values}` from `example/`
