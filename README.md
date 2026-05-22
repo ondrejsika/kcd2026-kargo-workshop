@@ -80,6 +80,13 @@ Copy `clusters/kcd/hello/{argocd,values}` from `example/`
 
 Commit and push
 
+See:
+
+- https://argocd.kcd.sikademo.com
+- https://hello-dev.kcd.sikademo.com
+- https://hello-staging.kcd.sikademo.com
+- https://hello-prod.kcd.sikademo.com
+
 ## Create Kargo config for hello app
 
 Copy `clusters/kcd/hello/kargo` from `example/`
