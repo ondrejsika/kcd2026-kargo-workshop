@@ -118,6 +118,10 @@ A deployment target (e.g. dev, staging, prod) that tracks which Freight is curre
 
 A record of moving a specific Freight into a Stage; Kargo creates one automatically or on manual approval.
 
+### Promotion Steps
+
+https://docs.kargo.io/user-guide/reference-docs/promotion-steps
+
 ## Try Image Update
 
 Build and push image v2
