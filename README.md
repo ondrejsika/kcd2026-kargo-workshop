@@ -5,6 +5,10 @@
 - https://sika.link/kcd2026-kargo
 - https://large-type.com/#sika.link%2Fkcd2026-kargo
 
+Repository we've created during workshop
+
+<https://github.com/ondrejsika/kcd2026-kargo-example>
+
 ## Goal of the Workshop
 
 - Deploy example app in multiple environments: dev, staging, prod
