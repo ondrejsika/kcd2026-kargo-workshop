@@ -2,6 +2,9 @@
 
 # kcd2026-kargo-workshop
 
+- https://sika.link/kcd2026-kargo
+- https://large-type.com/#sika.link%2Fkcd2026-kargo
+
 ## Goal of the Workshop
 
 - Deploy example app in multiple environments: dev, staging, prod
