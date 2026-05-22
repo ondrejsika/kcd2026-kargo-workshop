@@ -110,3 +110,18 @@ A deployment target (e.g. dev, staging, prod) that tracks which Freight is curre
 ### Promotion
 
 A record of moving a specific Freight into a Stage; Kargo creates one automatically or on manual approval.
+
+## Try Image Update
+
+Build and push image v2
+
+```
+make -C ./src/hello build-and-push BUILD_ID=2
+```
+
+See Kargo and apps:
+
+- https://kargo.kcd.sikademo.com
+- https://hello-dev.kcd.sikademo.com
+- https://hello-staging.kcd.sikademo.com
+- https://hello-prod.kcd.sikademo.com
