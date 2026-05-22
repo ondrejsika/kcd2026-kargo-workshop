@@ -132,3 +132,13 @@ See Kargo and apps:
 - https://hello-dev.kcd.sikademo.com
 - https://hello-staging.kcd.sikademo.com
 - https://hello-prod.kcd.sikademo.com
+
+## Try Update Values
+
+```
+vim clusters/kcd/hello/values/dev/common.values.yaml
+```
+
+Commit and push.
+
+See Kargo and apps
