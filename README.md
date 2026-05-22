@@ -87,3 +87,9 @@ Username `admin`, password `admin` for both.
 ## Add ArgoCD Webbook to Github
 
 `https://argocd.kcd.sikademo.com/api/webhook`
+
+## Create ArgoCD Apps for hello app
+
+Copy `clusters/kcd/hello/{argocd,values}` from `example/`
+
+Commit and push
