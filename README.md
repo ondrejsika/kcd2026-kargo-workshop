@@ -83,3 +83,7 @@ kubectl apply -f clusters/kcd/_app_of_apps
 - https://kargo.kcd.sikademo.com
 
 Username `admin`, password `admin` for both.
+
+## Add ArgoCD Webbook to Github
+
+`https://argocd.kcd.sikademo.com/api/webhook`
