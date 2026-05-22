@@ -2,9 +2,19 @@
 
 # kcd2026-kargo-workshop
 
+## What is ArgoCD?
+
+[ArgoCD](https://argo-cd.readthedocs.io) is an open-source declarative, GitOps continuous delivery tool for Kubernetes. It continuously syncs the desired state defined in a Git repository with the actual state of a Kubernetes cluster, automatically detecting and correcting drift.
+
+- <https://argoproj.github.io/cd>
+- <https://github.com/argoproj/argo-cd>
+- <https://argo-cd.readthedocs.io>
+
 ## What is Kargo?
 
 [Kargo](https://kargo.io) is an open-source continuous promotion framework for Kubernetes, built by Akuity. It models your software delivery pipeline as a sequence of **Stages** (e.g. dev → staging → production), each pinned to specific artifact versions called **Freights**. Kargo tracks where each Freight is, automates its promotion through the pipeline, and enforces approval gates — giving teams safe, auditable, GitOps-native progressive delivery without hand-rolled shell scripts.
+
+Kargo a common companion to ArgoCD — Kargo decides *what* to promote and *when*, while ArgoCD handles the actual deployment to the cluster.
 
 - <https://kargo.io>
 - <https://github.com/akuity/kargo>
