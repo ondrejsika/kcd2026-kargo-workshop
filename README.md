@@ -93,3 +93,9 @@ Username `admin`, password `admin` for both.
 Copy `clusters/kcd/hello/{argocd,values}` from `example/`
 
 Commit and push
+
+## Create Kargo config for hello app
+
+Copy `clusters/kcd/hello/kargo` from `example/`
+
+Commit and push
