@@ -1,4 +1,4 @@
-IMAGE=ttl.sh/ondrejsika/kcd2026-kargo-example
+IMAGE=ttl.sh/ondrejsika/kcd2026-kargo-example/hello
 BUILD_ID=0
 
 build-and-push-hello:
